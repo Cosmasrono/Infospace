@@ -1,0 +1,63 @@
+<!-- component -->
+<DOCTYPE html>
+<html lang="en" >
+     
+<head>
+    <meta charset="UTF-8" />
+    <link href="./assets/output.css" rel="stylesheet">
+    <link href="./assets/tailwind.css" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Components</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <div class=" bg-green-400 flex gap-3 items-center justify-center">
+        <span>
+            <a href="/"> cards</a>  
+
+      <a href="/main.html"> card 2</a>  
+      <a href="/style.html"> card 3</a> 
+      <a href="/cos.html"> card 4</a> 
+
+     </span>
+      </div>
+    <div>
+ 
+    </div>
+  </head>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+    theme: {
+        extend: {
+            animation: {
+                'spin-slow': 'spin 5s linear infinite',
+            },
+        },
+    },
+    plugins: [],
+}
+</script>
+<div class="flex h-screen items-center">
+  <div class="group relative mx-auto w-96 overflow-hidden rounded-[16px] bg-gray-300 p-[1px] transition-all duration-300 ease-in-out hover:bg-gradient-to-r hover:from-indigo-500 hover:via-purple-800 hover:to-pink-800">
+    <div class="group-hover:animate-spin-slow invisible absolute -top-40 -bottom-40 left-10 right-10 bg-gradient-to-r from-transparent via-white/90 to-transparent group-hover:visible"></div>
+    <div class="relative rounded-[15px] bg-white p-6">
+      <div class="space-y-4">
+        <img src="https://nuxt.com/assets/home/ux-fast-light.svg" alt="" />
+        <p class="text-lg font-semibold text-slate-800">Hover me!</p>
+        <p class="font-md text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam delectus temporibus est ut nisi nam at adipisci sunt dolore quibusdam.</p>
+      </div>
+    </div>
+  </div>
+
+
+<!-- another one -->
+
+<!-- component -->
+
+</div>
+</html>
+```
