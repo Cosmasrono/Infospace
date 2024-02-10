@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="./assets/output.css" rel="stylesheet">
+    <link href="./assets/tailwind.css" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Components</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>    
+    <!-- card 1 -->
+    <div>
+      <div class=" flex items-center justify-center italic font-bold">
+        <h1>cards</h1>
+         
+      </div>
+      <h1>cards 1</h1>
+      <div class=" flex flex-wrap flex-col md:flex-row gap-4 p-4 m-4 items-center justify-center ">
+       
+        <img src="https://images.unsplash.com/photo-1448932223592-d1fc686e76ea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fG9ubGluZXxlbnwwfHwwfHx8MA%3D%3D" alt=""
+        class="rounded-lg">
+        
+        <div class=" ">
+          <img src="https://media.istockphoto.com/id/1438185814/photo/college-student-asian-man-and-studying-on-laptop-at-campus-research-and-education-test-exam.webp?b=1&s=170667a&w=0&k=20&c=GB278ll5DUQDJx4WnhrD-DCwjjjfTfyVCB7jmGz5fmQ=" alt=""
+          class="rounded-lg">
+        </div>
+       </div>
+    </div>
+
+    <!-- card 2 -->
+<h1>Card 2</h1>
+    <div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 p-3 m-2">
+      <div class="h-32 rounded-lg bg-slate-950 lg:col-span-2"></div>
+      <div class="h-32 rounded-lg bg-gray-800"></div>
+    </div>
+
+
+    <!-- card 3 -->
+<h3> card 3</h3>
+
+<div class="grid grid-cols-1 gap-4 lg:grid-cols-4 lg:gap-8 p-3 m-2">
+  <div class="h-32 rounded-lg bg-black"></div>
+  <div class="h-32 rounded-lg bg-gray-500"></div>
+  <div class="h-32 rounded-lg bg-gray-800"></div>
+  <div class="h-32 rounded-lg bg-gray-950"></div>
+</div>
+    
+<!-- card 4 -->
+<h3> card 4</h3>
+<div class="grid grid-cols-1 gap-4 lg:grid-cols-[120px_1fr] lg:gap-8 p-3 m-2">
+  <div class="h-32 rounded-lg bg-green-600"></div>
+  <div class="h-32 rounded-lg bg-green-800"></div>
+</div>
+    <div id="expose"></div>
+    <script type="module" src="inject.js"></script>
+  </body>
+</html>
